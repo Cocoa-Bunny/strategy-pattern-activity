@@ -16,7 +16,9 @@ public class Knight {
         Hint: There should simply be three method invocations in this method.
      */
     public void attack() {
-
+        playerStrategy.attackSmall();
+        playerStrategy.attackMedium();
+        playerStrategy.attackLarge();
     }
 
     /*
@@ -25,6 +27,6 @@ public class Knight {
 
      */
     public void announceStrategy() {
-
+        playerStrategy.announceStrategy();
     }
 }
